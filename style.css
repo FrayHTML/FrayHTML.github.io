@@ -1,0 +1,86 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+    background-color: rgb(243, 243, 242);
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+header ul li{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.presentacion img{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 0 0 40px;
+}
+
+.slogan{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.slogan h1{
+    display: flex;
+    font-size: 40px;
+}
+
+.slogan img{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.servicios img{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+  footer{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 242);
+ }
+
+.sobre{
+    width: 100%;
+padding: 50px;
+}
+
+.sobre img{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 30%;
+}
+
+.trabajos img{
+    padding: 100px;
+}
+
+.carouselExampleControls{
+    width: 150px;
+}
+
+.mitrabajo{
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
